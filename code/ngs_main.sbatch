@@ -373,7 +373,7 @@ if (( ALIGNMENT == 1 )); then
 
     ALIGNMENT_JOBID_FILE="${JOB_DIR}/${JOB_NAME}_alignment_array.jobid"
     rm -f "$ALIGNMENT_JOBID_FILE"
-    INDEX_T=$(printf "%02d:%02d:00" $((INDEX_TIME + 10 / 60)) $((INDEX_TIME + 10 % 60)))
+    INDEX_T=$(printf "%02d:%02d:00" $(((INDEX_TIME + 10) / 60)) $(((INDEX_TIME + 10) % 60)))
     MEM=$(( INDEX_SIZE + 15 ))
     DEP_OPT=""
     export GLOB_PATTERN="${GLOB_PATTERN_FASTQ[*]}"
