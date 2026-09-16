@@ -1,0 +1,8 @@
+chr1R   1
+chr2R   2
+chr3R   3
+chr4R   4
+chr5R   5
+chr6R   6
+chr7R   7
+chrB   8

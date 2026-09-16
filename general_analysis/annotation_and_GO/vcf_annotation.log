@@ -1,0 +1,155 @@
+java -Xmx8g -jar snpEff.jar -v rye_Lo7 -stats rye_annotation_report.html \
+    <project_data>/LD-pruned_minDP4_maxDP100_maf0.002_maxMiss0.9_minQ40_noIndels_biallelic_noPopVar.vcf.gz \
+    > <project_data>/LD-pruned_minDP4_maxDP100_maf0.002_maxMiss0.9_minQ40_noIndels_biallelic_noPopVar.annotated.vcf
+00:00:00 SnpEff version SnpEff 5.4c (build 2026-02-23 07:25), by Pablo Cingolani
+00:00:00 Command: 'ann'
+00:00:00 Reading configuration file 'snpEff.config'. Genome: 'rye_Lo7'
+00:00:00 Looking for config file: '<snpeff-path>/snpeff-5.4.0c-0/snpEff.config'
+00:00:00 Reading config file: <snpeff-path>/snpeff-5.4.0c-0/snpEff.config
+00:00:01 done
+00:00:01 Reading database for genome version 'rye_Lo7' from file '<snpeff-path>/snpeff-5.4.0c-0/./data/rye_Lo7/snpEffectPredictor.bin' (this might take a while)
+00:00:09 done
+00:00:09 Loading Motifs and PWMs
+00:00:09 Building interval forest
+00:00:12 done.
+00:00:12 Genome stats :
+#-----------------------------------------------
+# Genome name                : 'rye_Lo7'
+# Genome version             : 'rye_Lo7'
+# Genome ID                  : 'rye_Lo7[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 75850
+# Protein coding genes       : 75850
+#-----------------------------------------------
+# Transcripts                : 84086
+# Avg. transcripts per gene  : 1,11
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        :
+#               AA sequences :      0 ( 0,00% )
+#              DNA sequences :      0 ( 0,00% )
+#-----------------------------------------------
+# Protein coding transcripts : 84086
+#              Length errors :    688 ( 0,82% )
+#  STOP codons in CDS errors :      0 ( 0,00% )
+#         START codon errors :   2778 ( 3,30% )
+#        STOP codon warnings :    784 ( 0,93% )
+#              UTR sequences :  70969 ( 84,40% )
+#               Total Errors :   3213 ( 3,82% )
+#-----------------------------------------------
+# Cds                        : 457228
+# Exons                      : 495006
+# Exons with sequence        : 495006
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 5,89
+# WARNING                    : No mitochondrion chromosome found
+#-----------------------------------------------
+# Number of chromosomes      : 85
+# Chromosomes                : Format 'chromo_name size codon_table'
+#               '3R'    1128390902      Standard
+#               '2R'    1011422590      Standard
+#               '4R'    973439859       Standard
+#               '6R'    943691929       Standard
+#               '5R'    924458964       Standard
+#               '7R'    920146642       Standard
+#               '1R'    775559507       Standard
+#               'Un'    25536674        Standard
+#               'contig_corrected_v3_185'       452970  Standard
+#               'contig_corrected_v3_549'       417234  Standard
+#               'contig_corrected_v3_117'       361809  Standard
+#               'contig_corrected_v3_1057'      297714  Standard
+#               'contig_corrected_v3_378'       239389  Standard
+#               'contig_corrected_v3_374'       222949  Standard
+#               'contig_corrected_v3_193'       214633  Standard
+#               'contig_corrected_v3_474'       190549  Standard
+#               'contig_corrected_v3_841'       158558  Standard
+#               'contig_corrected_v3_284'       154721  Standard
+#               'contig_corrected_v3_750'       149735  Standard
+#               'contig_corrected_v3_282'       144023  Standard
+#               'contig_corrected_v3_630'       142763  Standard
+#               'contig_corrected_v3_370'       135604  Standard
+#               'contig_corrected_v3_488'       134686  Standard
+#               'contig_corrected_v3_379'       133496  Standard
+#               'contig_corrected_v3_220'       129075  Standard
+#               'contig_corrected_v3_424'       127179  Standard
+#               'contig_corrected_v3_775'       119474  Standard
+#               'contig_corrected_v3_197'       101134  Standard
+#               'contig_corrected_v3_385'       99394   Standard
+#               'contig_corrected_v3_333'       98912   Standard
+#               'contig_corrected_v3_241'       97493   Standard
+#               'contig_corrected_v3_285'       90872   Standard
+#               'contig_corrected_v3_279'       87332   Standard
+#               'contig_corrected_v3_382'       85802   Standard
+#               'contig_corrected_v3_367'       83517   Standard
+#               'contig_corrected_v3_1054'      79794   Standard
+#               'contig_corrected_v3_835'       79126   Standard
+#               'contig_corrected_v3_957'       71280   Standard
+#               'contig_corrected_v3_368'       70403   Standard
+#               'contig_corrected_v3_839'       69966   Standard
+#               'contig_corrected_v3_927'       69505   Standard
+#               'contig_corrected_v3_808'       68731   Standard
+#               'contig_corrected_v3_94'        67773   Standard
+#               'contig_corrected_v3_757'       67762   Standard
+#               'contig_corrected_v3_489'       61416   Standard
+#               'contig_corrected_v3_565'       60936   Standard
+#               'contig_corrected_v3_1060'      58939   Standard
+#               'contig_corrected_v3_845'       56551   Standard
+#               'contig_corrected_v3_376'       53577   Standard
+#               'contig_corrected_v3_842'       52959   Standard
+#               'contig_corrected_v3_795'       52319   Standard
+#               'contig_corrected_v3_806'       52240   Standard
+#               'contig_corrected_v3_844'       50115   Standard
+#               'contig_corrected_v3_681'       48463   Standard
+#               'contig_corrected_v3_926'       47686   Standard
+#               'contig_corrected_v3_840'       42627   Standard
+#               'contig_corrected_v3_937'       41454   Standard
+#               'contig_corrected_v3_332'       41311   Standard
+#               'contig_corrected_v3_487'       37482   Standard
+#               'contig_corrected_v3_277'       37410   Standard
+#               'contig_corrected_v3_270'       36592   Standard
+#               'contig_corrected_v3_655'       36193   Standard
+#               'contig_corrected_v3_1027'      35547   Standard
+#               'contig_corrected_v3_830'       33654   Standard
+#               'contig_corrected_v3_846'       33459   Standard
+#               'contig_corrected_v3_972'       31860   Standard
+#               'contig_corrected_v3_569'       29022   Standard
+#               'contig_corrected_v3_470'       28701   Standard
+#               'contig_corrected_v3_680'       27904   Standard
+#               'contig_corrected_v3_1025'      26731   Standard
+#               'contig_corrected_v3_308'       25099   Standard
+#               'contig_corrected_v3_1026'      23349   Standard
+#               'contig_corrected_v3_1030'      19384   Standard
+#               'contig_corrected_v3_1029'      15082   Standard
+#               'contig_corrected_v3_1033'      14075   Standard
+#               'contig_corrected_v3_929'       13774   Standard
+#               'contig_corrected_v3_1049'      12536   Standard
+#               'contig_corrected_v3_970'       7627    Standard
+#               'contig_corrected_v3_1040'      7219    Standard
+#               'contig_corrected_v3_1034'      7111    Standard
+#               'contig_corrected_v3_958'       5908    Standard
+#               'contig_corrected_v3_712'       3700    Standard
+#               'contig_corrected_v3_480'       3319    Standard
+#               'contig_corrected_v3_80'        1679    Standard
+#               'contig_corrected_v3_278'       1317    Standard
+#-----------------------------------------------
+
+00:00:18 Predicting variants
+00:00:30        10000 variants (794 variants per second), 10000 VCF entries
+00:00:39        20000 variants (932 variants per second), 20000 VCF entries
+00:00:48        30000 variants (992 variants per second), 30000 VCF entries
+00:00:57        40000 variants (1017 variants per second), 40000 VCF entries
+
+WARNINGS: Some warning were detected
+Warning type    Number of warnings
+WARNING_TRANSCRIPT_INCOMPLETE   176
+WARNING_TRANSCRIPT_NO_START_CODON       970
+WARNING_TRANSCRIPT_NO_STOP_CODON        189
+
+
+00:01:03 Creating summary file: rye_annotation_report.html
+00:01:04 Creating genes file: ./rye_annotation_report.genes.txt
+00:01:04 done.
+00:01:04 Logging
+00:01:05 Checking for updates...
+00:01:07 Done.

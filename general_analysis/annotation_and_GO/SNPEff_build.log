@@ -1,0 +1,4 @@
+java -Xmx6g -jar snpEff.jar build -gff3 -noCheckCds -noCheckProtein rye_Lo7
+WARNING_CDS_TOO_SHORT: CDS too short, cannot correct frame: frame size 1, frame correction 1, CDS: 5R   705924867-705924867 CDS 'S.CEREALE.LO7.r2.5RG00499280.1.CDS1', frame: 1
+
+ExonSpliceCharacterizer.type(236):      WARNING: Gene 'S.CEREALE.LO7.r2.3RG00194490', transcript 'S.CEREALE.LO7.r2.3RG00194490.1' has too many exons (1017 exons). Skipped

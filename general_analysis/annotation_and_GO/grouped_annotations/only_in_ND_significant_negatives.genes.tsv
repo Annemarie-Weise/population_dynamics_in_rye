@@ -1,0 +1,179 @@
+GENE_ID	effects	description	confidence	AA_pos	HGVS_P	IMPACT	n_snps	snps
+S.CEREALE.LO7.r2.1RG00009810	synonymous_variant	uniref100 f box protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high	155/417|154/416	p.Leu155Leu|p.Leu154Leu	LOW	1	chr1R_43510066_T_C
+S.CEREALE.LO7.r2.1RG00009820	downstream_gene_variant	unknown protein	low			MODIFIER	1	chr1R_43510066_T_C
+S.CEREALE.LO7.r2.1RG00009830	downstream_gene_variant	uniref100 f box protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr1R_43510066_T_C
+S.CEREALE.LO7.r2.1RG00013810	synonymous_variant	uniref100 kinesin protein kin n=1 tax=arabidopsis thaliana taxid=3702 arath	high	18/1059	p.Ser18Ser	LOW	1	chr1R_65023004_G_A
+S.CEREALE.LO7.r2.1RG00014700	intron_variant	uniref100 protein far sequence n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr1R_69779552_G_A
+S.CEREALE.LO7.r2.1RG00016560	upstream_gene_variant;upstream_gene_variant	;	low;low	;	;	MODIFIER;MODIFIER	2	chr1R_81124901_C_T;chr1R_81124919_C_T
+S.CEREALE.LO7.r2.1RG00016570	synonymous_variant;synonymous_variant	uniref100 tetraspanin n=1 tax=arabidopsis thaliana taxid=3702 arath;uniref100 tetraspanin n=1 tax=arabidopsis thaliana taxid=3702 arath	high;high	67/290|67/269;73/290|73/269	p.Phe67Phe;p.His73His	LOW;LOW	2	chr1R_81124901_C_T;chr1R_81124919_C_T
+S.CEREALE.LO7.r2.1RG00016580	downstream_gene_variant;downstream_gene_variant	unknown protein;unknown protein	high;high	;	;	MODIFIER;MODIFIER	2	chr1R_81124901_C_T;chr1R_81124919_C_T
+S.CEREALE.LO7.r2.1RG00024200	synonymous_variant	uniref100 cytochrome p450 n=1 tax=arabidopsis thaliana taxid=3702 arath	high	182/529	p.Pro182Pro	LOW	1	chr1R_158293137_C_T
+S.CEREALE.LO7.r2.1RG00033950	missense_variant	uniref100 protein eceriferum n=2 tax=arabidopsis thaliana taxid=3702 arath	high	282/619	p.Glu282Asp	MODERATE	1	chr1R_357166626_C_G
+S.CEREALE.LO7.r2.1RG00037490	missense_variant	unknown protein	low	260/627|260/626	p.Ala260Gly	MODERATE	1	chr1R_413702519_C_G
+S.CEREALE.LO7.r2.1RG00041670	upstream_gene_variant	uniref100 lysine specific demethylase jmj n=1 tax=oryza sativa subsp japonica taxid=39947 orysj	high			MODIFIER	1	chr1R_462926297_A_G
+S.CEREALE.LO7.r2.1RG00041690	intron_variant	uniref100 xyloglucan endotransglucosylase hydrolase protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr1R_463355227_C_T
+S.CEREALE.LO7.r2.1RG00043970	downstream_gene_variant	uniref100 udp glucuronate xylan alpha glucuronosyltransferase n=2 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr1R_488311774_C_T
+S.CEREALE.LO7.r2.1RG00043980	upstream_gene_variant	expressed protein	high			MODIFIER	1	chr1R_488311774_C_T
+S.CEREALE.LO7.r2.1RG00056360	synonymous_variant	uniref100 protein light dependent short hypocotyls n=1 tax=arabidopsis thaliana taxid=3702 arath	high	27/233	p.Pro27Pro	LOW	1	chr1R_621259332_C_A
+S.CEREALE.LO7.r2.1RG00058160	upstream_gene_variant	uniref100 f box protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr1R_638119493_G_A
+S.CEREALE.LO7.r2.1RG00058170	downstream_gene_variant	unknown protein	high			MODIFIER	1	chr1R_638119493_G_A
+S.CEREALE.LO7.r2.1RG00062280	intron_variant	uniref100 signal recognition particle kda protein n=2 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr1R_663542199_A_C
+S.CEREALE.LO7.r2.1RG00072740	missense_variant	uniref100 f box repeat protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high	349/444	p.Arg349Gln	MODERATE	1	chr1R_722223106_G_A
+S.CEREALE.LO7.r2.1RG00072750	downstream_gene_variant	uniref100 f box protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr1R_722223106_G_A
+S.CEREALE.LO7.r2.1RG00072760	downstream_gene_variant	uniref100 dynamin protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr1R_722223106_G_A
+S.CEREALE.LO7.r2.1RG00074320	downstream_gene_variant	catalase	low			MODIFIER	1	chr1R_730963996_C_T
+S.CEREALE.LO7.r2.1RG00074330	intron_variant	uniref100 ubiquitin conjugating enzyme e2 n=2 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr1R_730963996_C_T
+S.CEREALE.LO7.r2.1RG00074400	5_prime_UTR_premature_start_codon_gain_variant|5_prime_UTR_variant	uniref100 3 ketoacyl coa synthase n=1 tax=arabidopsis thaliana taxid=3702 arath	high			LOW|MODIFIER	1	chr1R_732030945_G_C
+S.CEREALE.LO7.r2.1RG00074540	splice_region_variant&intron_variant	3 deoxy manno octulosonate cytidylyltransferase n=1 taxid=4577 repid=kdsb	high			LOW	1	chr1R_732306306_C_T
+S.CEREALE.LO7.r2.1RG00075350	upstream_gene_variant	uniref100 pentatricopeptide repeat containing protein chloroplastic mitochondrial n=2 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr1R_736420552_A_G
+S.CEREALE.LO7.r2.1RG00075360	intron_variant	unknown protein	low			MODIFIER	1	chr1R_736420552_A_G
+S.CEREALE.LO7.r2.1RG00075370	downstream_gene_variant	unknown protein	low			MODIFIER	1	chr1R_736420552_A_G
+S.CEREALE.LO7.r2.1RG00078420	intron_variant	ctp synthase	high			MODIFIER	1	chr1R_748537556_C_T
+S.CEREALE.LO7.r2.2RG00088340	intron_variant	uniref100 protein iq domain n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr2R_34791560_C_T
+S.CEREALE.LO7.r2.2RG00088350	upstream_gene_variant	uniref100 skp protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr2R_34791560_C_T
+S.CEREALE.LO7.r2.2RG00088990	missense_variant	unknown protein	low	88/197	p.Gln88His	MODERATE	1	chr2R_38243911_C_A
+S.CEREALE.LO7.r2.2RG00092700	synonymous_variant	anti sigma i factor rsgi	high	293/573	p.Arg293Arg	LOW	1	chr2R_59428484_G_C
+S.CEREALE.LO7.r2.2RG00099650	synonymous_variant	uniref100 brassinosteroid lrr receptor kinase n=4 tax=oryza sativa subsp japonica taxid=39947 repid=bri1 orysj	high	51/678	p.Ala51Ala	LOW	1	chr2R_85442794_G_A
+S.CEREALE.LO7.r2.2RG00100770	intron_variant	unknown protein	high			MODIFIER	1	chr2R_94840037_T_C
+S.CEREALE.LO7.r2.2RG00153030	synonymous_variant	uniref100 receptor protein kinase n=1 tax=arabidopsis thaliana taxid=3702 arath	high	132/353	p.Leu132Leu	LOW	1	chr2R_779016408_G_T
+S.CEREALE.LO7.r2.2RG00159970	downstream_gene_variant	uniref100 glucan endo beta glucosidase isoform n=3 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr2R_847322732_A_G
+S.CEREALE.LO7.r2.2RG00159980	synonymous_variant	uniref100 pathogenesis protein n=1 tax=nicotiana tabacum taxid=4097 repid=prb1 tobac	high	65/167	p.Ala65Ala	LOW	1	chr2R_847322732_A_G
+S.CEREALE.LO7.r2.2RG00159990	upstream_gene_variant		low			MODIFIER	1	chr2R_847322732_A_G
+S.CEREALE.LO7.r2.2RG00160000	upstream_gene_variant		low			MODIFIER	1	chr2R_847322732_A_G
+S.CEREALE.LO7.r2.2RG00167060	missense_variant	uniref100 disease resistance protein rpp n=3 tax=arabidopsis thaliana taxid=3702 arath	high	60/908	p.Thr60Ser	MODERATE	1	chr2R_893774982_G_C
+S.CEREALE.LO7.r2.2RG00167220	intron_variant	uniref100 dihydroflavonol 4 reductase n=2 tax=arabidopsis thaliana taxid=3702 repid=dfra arath	high			MODIFIER	1	chr2R_894677567_G_A
+S.CEREALE.LO7.r2.2RG00167230	upstream_gene_variant	uniref100 dihydroflavonol 4 reductase n=2 tax=arabidopsis thaliana taxid=3702 repid=dfra arath	high			MODIFIER	1	chr2R_894677567_G_A
+S.CEREALE.LO7.r2.2RG00167580	missense_variant	unknown protein	high	164/220	p.Val164Gly	MODERATE	1	chr2R_895508056_A_C
+S.CEREALE.LO7.r2.2RG00167620	downstream_gene_variant	unknown protein	high			MODIFIER	1	chr2R_895690878_T_A
+S.CEREALE.LO7.r2.2RG00168280	upstream_gene_variant	uniref100 btb poz and math domain containing protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr2R_899191732_G_A
+S.CEREALE.LO7.r2.2RG00168290	missense_variant	uniref100 golgin candidate n=1 tax=arabidopsis thaliana taxid=3702 arath	high	491/509|490/508	p.Pro491Ser|p.Pro490Ser	MODERATE	1	chr2R_899191732_G_A
+S.CEREALE.LO7.r2.2RG00168970	downstream_gene_variant	uniref100 cop signalosome complex subunit 5b n=2 tax=arabidopsis thaliana taxid=3702 repid=csn5b arath	high			MODIFIER	1	chr2R_902416005_G_A
+S.CEREALE.LO7.r2.2RG00168980	5_prime_UTR_variant	uniref100 g type lectin s receptor serine threonine protein kinase n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr2R_902416005_G_A
+S.CEREALE.LO7.r2.2RG00172880	intron_variant	uniref100 gdsl esterase lipase n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr2R_924975289_G_A
+S.CEREALE.LO7.r2.2RG00188450	missense_variant	uniref100 peroxidase n=1 tax=arabidopsis thaliana taxid=3702 arath	high	9/337	p.Met9Ile	MODERATE	1	chr2R_989559741_C_T
+S.CEREALE.LO7.r2.3RG00197180	upstream_gene_variant	unknown protein	low			MODIFIER	1	chr3R_84920869_T_A
+S.CEREALE.LO7.r2.3RG00197190	upstream_gene_variant	unknown protein	high			MODIFIER	1	chr3R_84920869_T_A
+S.CEREALE.LO7.r2.3RG00199330	missense_variant	unknown protein	high	67/180	p.Val67Met	MODERATE	1	chr3R_88514603_G_A
+S.CEREALE.LO7.r2.3RG00214920	downstream_gene_variant	unknown protein	low			MODIFIER	1	chr3R_138910279_G_A
+S.CEREALE.LO7.r2.3RG00214930	synonymous_variant	uniref100 rich receptor serine threonine protein kinase n=2 tax=arabidopsis thaliana taxid=3702 arath	high	27/1055	p.Asp27Asp	LOW	1	chr3R_138910279_G_A
+S.CEREALE.LO7.r2.3RG00217760	synonymous_variant	uniref100 alpha amylase trypsin inhibitor n=1 tax=hordeum vulgare taxid=4513 horvu	high	113/148	p.Gln113Gln	LOW	1	chr3R_151025938_T_C
+S.CEREALE.LO7.r2.3RG00219950	downstream_gene_variant	uniref100 f box protein pp n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr3R_165096390_C_T
+S.CEREALE.LO7.r2.3RG00219960	5_prime_UTR_variant	uniref100 kin protein n=1 tax=arabidopsis thaliana taxid=3702 repid=kin17 arath	high			MODIFIER	1	chr3R_165096390_C_T
+S.CEREALE.LO7.r2.3RG00219970	downstream_gene_variant	3 beta hydroxysteroid delta isomerase	high			MODIFIER	1	chr3R_165096390_C_T
+S.CEREALE.LO7.r2.3RG00225080	upstream_gene_variant;upstream_gene_variant	uniref100 e3 ubiquitin protein ligase ring n=3 tax=arabidopsis thaliana taxid=3702 arath;uniref100 e3 ubiquitin protein ligase ring n=3 tax=arabidopsis thaliana taxid=3702 arath	high;high	;	;	MODIFIER;MODIFIER	2	chr3R_191647922_C_G;chr3R_191647924_A_G
+S.CEREALE.LO7.r2.3RG00237120	missense_variant	o48522 vq motif containing protein n=2 tax=arabidopsis thaliana taxid=3702 arath	high	178/209	p.Gln178Glu	MODERATE	1	chr3R_337406249_G_C
+S.CEREALE.LO7.r2.3RG00260210	intron_variant	rna polymerase iii subunit rpc domain containing protein expressed	high			MODIFIER	1	chr3R_784045682_T_A
+S.CEREALE.LO7.r2.3RG00260220	upstream_gene_variant	uniref100 p25873 50s ribosomal protein l15 chloroplastic n=3 tax=arabidopsis thaliana taxid=3702 repid=rk15 arath	high			MODIFIER	1	chr3R_784045682_T_A
+S.CEREALE.LO7.r2.3RG00261520	synonymous_variant	uniref100 leucine rich repeat receptor serine threonine protein kinase n=1 tax=arabidopsis thaliana taxid=3702 arath	high	991/1057	p.Ser991Ser	LOW	1	chr3R_798601110_C_T
+S.CEREALE.LO7.r2.3RG00264230	downstream_gene_variant	unknown protein	low			MODIFIER	1	chr3R_830427528_T_C
+S.CEREALE.LO7.r2.3RG00264240	synonymous_variant	uniref100 transcription factor tga n=2 tax=arabidopsis thaliana taxid=3702 arath	high	118/296	p.Gly118Gly	LOW	1	chr3R_830427528_T_C
+S.CEREALE.LO7.r2.3RG00271130	missense_variant	uniref100 disease resistance protein rrs n=1 tax=arabidopsis thaliana taxid=3702 arath	high	329/348	p.Ser329Cys	MODERATE	1	chr3R_898232410_A_T
+S.CEREALE.LO7.r2.3RG00276840	upstream_gene_variant	uniref100 protein cov n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr3R_952916984_G_A
+S.CEREALE.LO7.r2.3RG00276850	synonymous_variant	uniref100 ethylene responsive transcription factor erf n=1 tax=arabidopsis thaliana taxid=3702 arath	high	271/391	p.Tyr271Tyr	LOW	1	chr3R_952916984_G_A
+S.CEREALE.LO7.r2.3RG00284520	synonymous_variant	uniref100 protein smax n=1 tax=arabidopsis thaliana taxid=3702 arath	high	85/509	p.Gly85Gly	LOW	1	chr3R_1011581600_C_T
+S.CEREALE.LO7.r2.4RG00306350	synonymous_variant	uniref100 seed linoleate 9s lipoxygenase n=1 tax=glycine max taxid=3847 soybn	high	674/861	p.His674His	LOW	1	chr4R_38264075_G_A
+S.CEREALE.LO7.r2.4RG00309760	synonymous_variant	uniref100 dynamin protein 1c n=2 tax=arabidopsis thaliana taxid=3702 arath	high	474/610	p.Arg474Arg	LOW	1	chr4R_55567393_A_G
+S.CEREALE.LO7.r2.4RG00309770	downstream_gene_variant	nadh dehydrogenase [ubiquinone] iron sulfur protein 1 mitochondrial	high			MODIFIER	1	chr4R_55567393_A_G
+S.CEREALE.LO7.r2.4RG00309780	downstream_gene_variant	uniref100 nadh dehydrogenase [ubiquinone] iron sulfur protein 1 mitochondrial n=2 taxid=3702 repid=ndus1	high			MODIFIER	1	chr4R_55567393_A_G
+S.CEREALE.LO7.r2.4RG00314890	synonymous_variant	uniref100 metacaspase n=1 tax=arabidopsis thaliana taxid=3702 arath	high	124/362	p.Arg124Arg	LOW	1	chr4R_88177989_G_C
+S.CEREALE.LO7.r2.4RG00314900	downstream_gene_variant	uniref100 atp dependent rna helicase deah chloroplastic n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr4R_88177989_G_C
+S.CEREALE.LO7.r2.4RG00342650	intron_variant	hga	high			MODIFIER	1	chr4R_567887324_A_G
+S.CEREALE.LO7.r2.4RG00346190	downstream_gene_variant	cation h + antiporter	low			MODIFIER	1	chr4R_606933961_G_C
+S.CEREALE.LO7.r2.4RG00346200	missense_variant	uniref100 nuclear transcription factor y subunit b 10 n=2 tax=arabidopsis thaliana taxid=3702 arath	high	137/312	p.Ala137Pro	MODERATE	1	chr4R_606933961_G_C
+S.CEREALE.LO7.r2.4RG00347160	downstream_gene_variant	uniref100 squamosa promoter binding protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr4R_616428772_G_T
+S.CEREALE.LO7.r2.4RG00370230	synonymous_variant	uniref100 peroxidase n=1 tax=arabidopsis thaliana taxid=3702 arath	high	70/331	p.His70His	LOW	1	chr4R_777392007_G_A
+S.CEREALE.LO7.r2.4RG00370240	upstream_gene_variant	dtc osat consensus 1 oryza sativa dna transposon tir cacta protein	low			MODIFIER	1	chr4R_777392007_G_A
+S.CEREALE.LO7.r2.4RG00393970	upstream_gene_variant	uniref100 pearli lipid transfer protein n=1 tax=arabidopsis thaliana taxid=3702 arath	low			MODIFIER	1	chr4R_882150591_C_T
+S.CEREALE.LO7.r2.4RG00399280	5_prime_UTR_variant|upstream_gene_variant	uniref100 protein nrt ptr family n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr4R_903149750_G_C
+S.CEREALE.LO7.r2.4RG00404950	synonymous_variant	c5y376 casp protein n=1 taxid=4558	high	116/317	p.Ala116Ala	LOW	1	chr4R_922019707_G_A
+S.CEREALE.LO7.r2.4RG00411090	synonymous_variant;synonymous_variant	uniref100 dexh box atp dependent rna helicase n=1 tax=arabidopsis thaliana taxid=3702 arath;uniref100 dexh box atp dependent rna helicase n=1 tax=arabidopsis thaliana taxid=3702 arath	high;high	2062/2179;2072/2179	p.Tyr2062Tyr;p.Ala2072Ala	LOW;LOW	2	chr4R_940011641_C_T;chr4R_940011671_T_C
+S.CEREALE.LO7.r2.4RG00411100	upstream_gene_variant;upstream_gene_variant	uniref100 udp glycosyltransferase n=2 tax=arabidopsis thaliana taxid=3702 repid= arath;uniref100 udp glycosyltransferase n=2 tax=arabidopsis thaliana taxid=3702 repid= arath	low;low	;	;	MODIFIER;MODIFIER	2	chr4R_940011641_C_T;chr4R_940011671_T_C
+S.CEREALE.LO7.r2.4RG00417350	stop_retained_variant	uniref100 wat protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high	655/654	p.Ter655Ter	LOW	1	chr4R_962187002_C_T
+S.CEREALE.LO7.r2.4RG00417360	downstream_gene_variant	f box domain containing protein expressed	low			MODIFIER	1	chr4R_962187002_C_T
+S.CEREALE.LO7.r2.5RG00421530	downstream_gene_variant	uniref100 sucrose phosphatase n=1 taxid=4097	high			MODIFIER	1	chr5R_8559589_C_T
+S.CEREALE.LO7.r2.5RG00421540	3_prime_UTR_variant	uniref100 ethylene receptor n=2 tax=arabidopsis thaliana taxid=3702 repid=etr1 arath	high			MODIFIER	1	chr5R_8559589_C_T
+S.CEREALE.LO7.r2.5RG00423200	synonymous_variant	unknown protein	high	47/599	p.Gly47Gly	LOW	1	chr5R_16692551_C_G
+S.CEREALE.LO7.r2.5RG00423210	upstream_gene_variant	uniref100 mitogen activated protein kinase n=1 tax=arabidopsis thaliana taxid=3702 arath|uniref100 serine threonine protein kinase afc n=3 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr5R_16692551_C_G
+S.CEREALE.LO7.r2.5RG00425350	intron_variant	q8h1u4 anaphase promoting complex subunit n=2 taxid=3702	high			MODIFIER	1	chr5R_47399709_A_G
+S.CEREALE.LO7.r2.5RG00425360	downstream_gene_variant	uniref100 basic leucine zipper n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr5R_47399709_A_G
+S.CEREALE.LO7.r2.5RG00428770	downstream_gene_variant;downstream_gene_variant	uniref100 cationic amino acid transporter 2 n=1 tax=arabidopsis thaliana taxid=3702 arath;uniref100 cationic amino acid transporter 2 n=1 tax=arabidopsis thaliana taxid=3702 arath	high;high	;	;	MODIFIER;MODIFIER	2	chr5R_66785762_A_C;chr5R_66785827_G_A
+S.CEREALE.LO7.r2.5RG00428780	intron_variant;intron_variant	expressed protein;expressed protein	high;high	;	;	MODIFIER;MODIFIER	2	chr5R_66785762_A_C;chr5R_66785827_G_A
+S.CEREALE.LO7.r2.5RG00431530	synonymous_variant	uniref100 protein detoxification n=1 tax=arabidopsis thaliana taxid=3702 arath	high	228/503	p.Leu228Leu	LOW	1	chr5R_80428956_G_A
+S.CEREALE.LO7.r2.5RG00431540	downstream_gene_variant	protein detoxification	high			MODIFIER	1	chr5R_80428956_G_A
+S.CEREALE.LO7.r2.5RG00431990	upstream_gene_variant	uniref100 wall associated receptor kinase n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr5R_81203304_T_C
+S.CEREALE.LO7.r2.5RG00432000	missense_variant	uniref100 wall associated receptor kinase n=1 tax=arabidopsis thaliana taxid=3702 arath	high	280/340	p.Thr280Ala	MODERATE	1	chr5R_81203304_T_C
+S.CEREALE.LO7.r2.5RG00432010	downstream_gene_variant	wall associated receptor kinase	low			MODIFIER	1	chr5R_81203304_T_C
+S.CEREALE.LO7.r2.5RG00432020	downstream_gene_variant		low			MODIFIER	1	chr5R_81203304_T_C
+S.CEREALE.LO7.r2.5RG00435590	upstream_gene_variant		low			MODIFIER	1	chr5R_95568278_C_A
+S.CEREALE.LO7.r2.5RG00435600	downstream_gene_variant	q8l5y6 cullin associated nedd dissociated protein n=1 taxid=3702|uniref100 q8l5y6 cullin associated nedd dissociated protein n=1 tax=arabidopsis thaliana taxid=3702 repid=cand1 arath	high			MODIFIER	1	chr5R_95568278_C_A
+S.CEREALE.LO7.r2.5RG00446720	missense_variant	q94ay3 e3 ubiquitin protein ligase drip n=3 tax=arabidopsis thaliana taxid=3702 arath	high	125/282	p.Asp125Ala	MODERATE	1	chr5R_243975649_T_G
+S.CEREALE.LO7.r2.5RG00458600	synonymous_variant	uniref100 tropinone reductase homolog n=1 tax=arabidopsis thaliana taxid=3702 arath	high	240/374	p.Pro240Pro	LOW	1	chr5R_453160170_T_C
+S.CEREALE.LO7.r2.5RG00458610	upstream_gene_variant	uniref100 kda late embryogenesis abundant protein n=1 taxid=4232	high			MODIFIER	1	chr5R_453160170_T_C
+S.CEREALE.LO7.r2.5RG00476550	downstream_gene_variant	unknown protein	high			MODIFIER	1	chr5R_566182174_C_T
+S.CEREALE.LO7.r2.5RG00476560	synonymous_variant	uniref100 phd finger protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high	260/700	p.Tyr260Tyr	LOW	1	chr5R_566182174_C_T
+S.CEREALE.LO7.r2.5RG00477450	intron_variant	uniref100 3 oxoacyl [acyl carrier protein] reductase chloroplastic n=1 tax=arabidopsis thaliana taxid=3702 repid=fabg arath	high			MODIFIER	1	chr5R_574983153_C_T
+S.CEREALE.LO7.r2.5RG00480790	splice_acceptor_variant&intron_variant	rlc hvul 1 hordeum vulgare retrotransposon ltr copia polyprotein	high			HIGH	1	chr5R_598760932_T_G
+S.CEREALE.LO7.r2.5RG00485400	intron_variant	unknown protein	low			MODIFIER	1	chr5R_628427878_G_C
+S.CEREALE.LO7.r2.5RG00501370	intron_variant	uniref100 molybdenum cofactor sulfurase n=1 taxid=4081 repid=mocos	high			MODIFIER	1	chr5R_720577090_A_T
+S.CEREALE.LO7.r2.5RG00501380	downstream_gene_variant	uniref100 glucan endo beta glucosidase n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr5R_720577090_A_T
+S.CEREALE.LO7.r2.5RG00501390	downstream_gene_variant	protein suppressor of fri n=1 tax=arabidopsis thaliana taxid=3702 repid=suf4 arath	high			MODIFIER	1	chr5R_720577090_A_T
+S.CEREALE.LO7.r2.5RG00502620	5_prime_UTR_variant	uniref100 histone lysine n methyltransferase h3 specific suvh =1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr5R_726819023_G_C
+S.CEREALE.LO7.r2.5RG00503870	synonymous_variant	uniref100 homeobox leucine zipper protein hox n=2 tax=oryza sativa subsp japonica taxid=39947 orysj	high	586/863	p.Ala586Ala	LOW	1	chr5R_734404964_T_A
+S.CEREALE.LO7.r2.5RG00508380	intron_variant	uniref100 thioredoxin protein hcf chloroplastic n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr5R_765394677_C_A
+S.CEREALE.LO7.r2.5RG00508910	intron_variant	uniref100 tubulin alpha chain n=5 taxid=1437183 repid=tba1 maize	high			MODIFIER	1	chr5R_769223497_A_C
+S.CEREALE.LO7.r2.5RG00508920	upstream_gene_variant	unknown protein	high			MODIFIER	1	chr5R_769223497_A_C
+S.CEREALE.LO7.r2.5RG00512630	synonymous_variant	uniref100 non specific lipid transfer protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high	71/172	p.Leu71Leu	LOW	1	chr5R_799902274_G_C
+S.CEREALE.LO7.r2.5RG00513970	downstream_gene_variant	uniref100 leucine rich repeat receptor protein kinase n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr5R_807718104_G_A
+S.CEREALE.LO7.r2.5RG00517000	downstream_gene_variant	uniref100 histone h2a 2 1 tax=triticum aestivum taxid=4565 wheat	high			MODIFIER	1	chr5R_826712032_A_G
+S.CEREALE.LO7.r2.5RG00523700	5_prime_UTR_variant	uniref100 heavy metal associated isoprenylated plant protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr5R_862367432_G_C
+S.CEREALE.LO7.r2.5RG00525450	intron_variant	u box domain containing protein	low			MODIFIER	1	chr5R_872693393_G_T
+S.CEREALE.LO7.r2.5RG00529160	3_prime_UTR_variant	uniref100 squamosa promoter binding protein n=1 tax=arabidopsis thaliana taxid=3702 arath	low			MODIFIER	1	chr5R_894076863_C_A
+S.CEREALE.LO7.r2.5RG00529170	missense_variant		low	66/148	p.Ser66Arg	MODERATE	1	chr5R_894076863_C_A
+S.CEREALE.LO7.r2.5RG00530810	downstream_gene_variant	peptide transporter ptr	low			MODIFIER	1	chr5R_900493155_A_G
+S.CEREALE.LO7.r2.5RG00530820	intron_variant	uniref100 trans cinnamate 4 monooxygenase n=3 tax=arabidopsis thaliana taxid=3702 repid=tcmo arath	high			MODIFIER	1	chr5R_900493155_A_G
+S.CEREALE.LO7.r2.6RG00541240	intron_variant	uniref100 bzip transcription factor n=1 tax=arabidopsis thaliana taxid=3702 arath	high|low			MODIFIER	1	chr6R_22540473_G_A
+S.CEREALE.LO7.r2.6RG00541250	upstream_gene_variant	transcription factor hbp 1a	high			MODIFIER	1	chr6R_22540473_G_A
+S.CEREALE.LO7.r2.6RG00560110	upstream_gene_variant		low			MODIFIER	1	chr6R_252855056_C_G
+S.CEREALE.LO7.r2.6RG00560120	upstream_gene_variant		low			MODIFIER	1	chr6R_252855056_C_G
+S.CEREALE.LO7.r2.6RG00568370	intron_variant	uniref100 math domain and coiled coil containing protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr6R_446048118_T_C
+S.CEREALE.LO7.r2.6RG00584880	synonymous_variant	uniref100 wat protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high	19/386|19/385	p.Leu19Leu	LOW	1	chr6R_640396427_G_T
+S.CEREALE.LO7.r2.6RG00596910	downstream_gene_variant	uniref100 f box protein pp n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr6R_712777788_C_T
+S.CEREALE.LO7.r2.6RG00608890	upstream_gene_variant	uniref100 chaperone protein clpc chloroplastic n=1 tax=oryza sativa subsp japonica taxid=39947 orysj	high			MODIFIER	1	chr6R_773461836_C_G
+S.CEREALE.LO7.r2.6RG00608900	missense_variant	uniref100 zinc finger protein zat n=1 tax=arabidopsis thaliana taxid=3702 arath	high	343/431	p.Val343Leu	MODERATE	1	chr6R_773461836_C_G
+S.CEREALE.LO7.r2.6RG00608910	downstream_gene_variant	uniref100 potassium transporter n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr6R_773461836_C_G
+S.CEREALE.LO7.r2.6RG00611530	downstream_gene_variant	unknown protein	high			MODIFIER	1	chr6R_784964015_C_T
+S.CEREALE.LO7.r2.6RG00611540	synonymous_variant	unknown protein	high	338/444	p.Gln338Gln	LOW	1	chr6R_784964015_C_T
+S.CEREALE.LO7.r2.6RG00613900	synonymous_variant	uniref100 nadph quinone oxidoreductase n=2 taxid=3702 repid=nqr	high	208/238	p.Ala208Ala	LOW	1	chr6R_791912047_G_T
+S.CEREALE.LO7.r2.6RG00617940	synonymous_variant	bzip transcription factor	high	307/907	p.Arg307Arg	LOW	1	chr6R_809870442_A_G
+S.CEREALE.LO7.r2.6RG00617950	downstream_gene_variant	trna uridine 5 carboxymethylaminomethyl modification enzyme mnmg	high			MODIFIER	1	chr6R_809870442_A_G
+S.CEREALE.LO7.r2.6RG00619980	intron_variant	unknown protein	high			MODIFIER	1	chr6R_817441708_T_C
+S.CEREALE.LO7.r2.6RG00619990	upstream_gene_variant	unknown protein	low			MODIFIER	1	chr6R_817441708_T_C
+S.CEREALE.LO7.r2.6RG00621330	intron_variant		low			MODIFIER	1	chr6R_827186238_A_G
+S.CEREALE.LO7.r2.6RG00634580	missense_variant	unknown protein	high	191/403	p.Glu191Gln	MODERATE	1	chr6R_875919910_G_C
+S.CEREALE.LO7.r2.6RG00635580	splice_region_variant&intron_variant	uniref100 protein plant cadmium resistance n=1 tax=arabidopsis thaliana taxid=3702 arath	high			LOW	1	chr6R_878575524_T_A
+S.CEREALE.LO7.r2.6RG00636410	missense_variant	uniref100 f box fbd lrr repeat protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high	284/535	p.Ala284Val	MODERATE	1	chr6R_881970578_C_T
+S.CEREALE.LO7.r2.6RG00637850	synonymous_variant	uniref100 protein argonaute n=1 tax=oryza sativa subsp japonica taxid=39947 orysj	high	307/1033	p.Val307Val	LOW	1	chr6R_891089120_A_G
+S.CEREALE.LO7.r2.7RG00677840	upstream_gene_variant	uniref100 annexin d3 n=2 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr7R_110901858_G_A
+S.CEREALE.LO7.r2.7RG00677850	synonymous_variant	uniref100 annexin d4 n=3 tax=arabidopsis thaliana taxid=3702 arath	high	75/366	p.Ser75Ser	LOW	1	chr7R_110901858_G_A
+S.CEREALE.LO7.r2.7RG00677860	downstream_gene_variant	uniref100 histone lysine n methyltransferase h3 specific suvh =1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr7R_110901858_G_A
+S.CEREALE.LO7.r2.7RG00678350	intron_variant	uniref100 sulfate transporter 4 1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr7R_114973109_G_A
+S.CEREALE.LO7.r2.7RG00679950	downstream_gene_variant	unknown protein	high			MODIFIER	1	chr7R_127776390_C_T
+S.CEREALE.LO7.r2.7RG00679960	intron_variant	uniref100 q9lx14 protein upstream of flc n=2 tax=arabidopsis thaliana taxid=3702 repid=ufc arath	high			MODIFIER	1	chr7R_127776390_C_T
+S.CEREALE.LO7.r2.7RG00685880	missense_variant	uniref100 protein oberon n=1 tax=arabidopsis thaliana taxid=3702 arath	high	466/799|466/768	p.Met466Ile	MODERATE	1	chr7R_189874656_G_A
+S.CEREALE.LO7.r2.7RG00685890	downstream_gene_variant	uniref100 zinc finger protein gis n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr7R_189874656_G_A
+S.CEREALE.LO7.r2.7RG00686240	intron_variant	uniref100 thaumatin protein n=1 tax=prunus persica taxid=3760 repid=tlp1 prupe	high			MODIFIER	1	chr7R_194017717_C_G
+S.CEREALE.LO7.r2.7RG00714340	missense_variant	uniref100 f box fbd lrr repeat protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high	180/474	p.Ser180Thr	MODERATE	1	chr7R_654858333_C_G
+S.CEREALE.LO7.r2.7RG00714350	downstream_gene_variant	uniref100 serine threonine protein phosphatase pp2a 5 catalytic subunit n=2 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr7R_654858333_C_G
+S.CEREALE.LO7.r2.7RG00717500	synonymous_variant	uniref100 e3 ubiquitin protein ligase rglg n=1 tax=arabidopsis thaliana taxid=3702 arath	high	38/449	p.Tyr38Tyr	LOW	1	chr7R_693729453_G_A
+S.CEREALE.LO7.r2.7RG00717510	downstream_gene_variant	uniref100 e3 ubiquitin protein ligase rglg n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr7R_693729453_G_A
+S.CEREALE.LO7.r2.7RG00719360	upstream_gene_variant	zinc transporter	low			MODIFIER	1	chr7R_714922135_G_C
+S.CEREALE.LO7.r2.7RG00720570	missense_variant	unknown protein	low	60/172	p.Glu60Lys	MODERATE	1	chr7R_725071601_C_T
+S.CEREALE.LO7.r2.7RG00726080	upstream_gene_variant;upstream_gene_variant	;	low;low	;	;	MODIFIER;MODIFIER	2	chr7R_775131677_T_C;chr7R_775131721_G_T
+S.CEREALE.LO7.r2.7RG00729230	upstream_gene_variant	unknown protein	low			MODIFIER	1	chr7R_799849665_T_C
+S.CEREALE.LO7.r2.7RG00729240	upstream_gene_variant	rlc hvul ikeros ay013246 1 hordeum vulgare retrotransposon ltr copia hypotehtical protein	high			MODIFIER	1	chr7R_799849665_T_C
+S.CEREALE.LO7.r2.7RG00732910	downstream_gene_variant	unknown protein	high			MODIFIER	1	chr7R_825061007_T_C
+S.CEREALE.LO7.r2.7RG00732920	intron_variant	uniref100 sodium hydrogen exchanger n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr7R_825061007_T_C
+S.CEREALE.LO7.r2.7RG00748720	synonymous_variant	p4 3 oxoacyl [acyl carrier protein] synthase n=2 taxid=3702	high	422/457	p.Asp422Asp	LOW	1	chr7R_890671320_A_G
+S.CEREALE.LO7.r2.7RG00752400	upstream_gene_variant	unknown protein	high			MODIFIER	1	chr7R_899522255_A_G
+S.CEREALE.LO7.r2.7RG00752410	missense_variant	unknown protein	low	49/163	p.Lys49Arg	MODERATE	1	chr7R_899522255_A_G
+S.CEREALE.LO7.r2.7RG00752420	upstream_gene_variant	uniref100 alpha amylase trypsin inhibitor n=1 tax=hordeum vulgare taxid=4513 horvu	high			MODIFIER	1	chr7R_899522255_A_G

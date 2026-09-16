@@ -1,0 +1,59 @@
+custom_table_header_config:
+  general_stats_table:
+    coverage:
+      format: "{:.3f}"
+    meandepth:
+      format: "{:.3f}"
+    mean_coverage:
+      format: "{:.3f}"
+  samtools-coverage-table:
+    coverage:
+      format: "{:.3f}"
+    meandepth:
+      format: "{:.3f}"
+
+general_stats_columns:
+  error_rate:
+    hidden: false
+  non-primary_alignments:
+    hidden: false
+  reads_mapped:
+    hidden: false
+  reads_mapped_percent:
+    hidden: false
+  reads_properly_paired_percent:
+    hidden: false
+  reads_MQ0_percent:
+    hidden: false
+  raw_total_sequences:
+    hidden: false
+  numreads:
+    hidden: false
+  covbases:
+    hidden: false
+  coverage:
+    hidden: false
+  meandepth:
+    hidden: false
+  meanbaseq:
+    hidden: false
+  meanmapq:
+    hidden: false
+
+table_columns_visible:
+  "Samtools: stats":
+    error_rate: true
+    non-primary_alignments: true
+    reads_mapped: true
+    reads_mapped_percent: true
+    reads_MQ0_percent: true
+    raw_total_sequences: true
+
+  "Samtools: coverage":
+    numreads: true
+    covbases: true
+    coverage: true
+    meandepth: true
+    meanbaseq: true
+    meanmapq: true
+

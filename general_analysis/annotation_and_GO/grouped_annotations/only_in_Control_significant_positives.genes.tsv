@@ -1,0 +1,15 @@
+GENE_ID	effects	description	confidence	AA_pos	HGVS_P	IMPACT	n_snps	snps
+S.CEREALE.LO7.r2.2RG00089430	intron_variant	uniref100 disease resistance protein rpp n=3 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr2R_39775296_C_A
+S.CEREALE.LO7.r2.2RG00089440	upstream_gene_variant	uniref100 f box protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr2R_39775296_C_A
+S.CEREALE.LO7.r2.2RG00089450	upstream_gene_variant		low			MODIFIER	1	chr2R_39775296_C_A
+S.CEREALE.LO7.r2.2RG00102530	upstream_gene_variant	protein kinase apk1a chloroplastic	high			MODIFIER	1	chr2R_112605644_G_A
+S.CEREALE.LO7.r2.2RG00148030	synonymous_variant	uniref100 peroxidase n=1 tax=arabidopsis thaliana taxid=3702 arath	high	84/329	p.Val84Val	LOW	1	chr2R_730751800_T_G
+S.CEREALE.LO7.r2.3RG00234080	synonymous_variant	unknown protein	high	781/1112	p.Pro781Pro	LOW	1	chr3R_294854135_C_T
+S.CEREALE.LO7.r2.4RG00348400	synonymous_variant	uniref100 potassium channel kat n=1 tax=oryza sativa subsp japonica taxid=39947 orysj	high	122/870|91/818	p.Phe122Phe|p.Phe91Phe	LOW	1	chr4R_630214667_C_T
+S.CEREALE.LO7.r2.5RG00480030	synonymous_variant	uniref100 mechanosensitive ion channel protein n=1 tax=arabidopsis thaliana taxid=3702 arath	high	646/925	p.Leu646Leu	LOW	1	chr5R_592690467_C_G
+S.CEREALE.LO7.r2.6RG00540000	5_prime_UTR_variant	basic secretory n=1 taxid=613112	high			MODIFIER	1	chr6R_14692617_C_T
+S.CEREALE.LO7.r2.6RG00579490	synonymous_variant|downstream_gene_variant	uniref100 zinc finger protein constans n=1 tax=arabidopsis thaliana taxid=3702 arath	high|low	142/393|142/392	p.Gly142Gly	LOW|MODIFIER	1	chr6R_589468523_A_G
+S.CEREALE.LO7.r2.6RG00579500	upstream_gene_variant		low			MODIFIER	1	chr6R_589468523_A_G
+S.CEREALE.LO7.r2.7RG00719250	downstream_gene_variant	uniref100 b3 domain containing protein rem n=1 tax=arabidopsis thaliana taxid=3702 arath	high			MODIFIER	1	chr7R_714075889_G_A
+S.CEREALE.LO7.r2.7RG00719260	5_prime_UTR_premature_start_codon_gain_variant|5_prime_UTR_variant	unknown protein	high			LOW|MODIFIER	1	chr7R_714075889_G_A
+S.CEREALE.LO7.r2.7RG00719360	upstream_gene_variant	zinc transporter	low			MODIFIER	1	chr7R_714922374_T_C

@@ -1,0 +1,8 @@
+"","gen0","gen1_ND","gen1_Control","gen2_ND","gen2_Control","gen3_Control","gen3_ND"
+"gen0",NA,NA,NA,NA,NA,NA,NA
+"gen1_ND",0,NA,NA,NA,NA,NA,NA
+"gen1_Control",0,0.001,NA,NA,NA,NA,NA
+"gen2_ND",0,0,0,NA,NA,NA,NA
+"gen2_Control",0,0,0,0,NA,NA,NA
+"gen3_Control",0,0,0,0,0,NA,NA
+"gen3_ND",0,0,0,0,0,0,NA
