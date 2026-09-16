@@ -78,23 +78,42 @@ align_Q <- function(previous_Q, current_Q) {
     seq_len(ncol(current_Q)),
     matched
   )
-  current_Q[, c(matched, unmatched), drop = FALSE]
+  component_order <- c(matched, unmatched)
+  list(
+    Q = current_Q[, component_order, drop = FALSE],
+    component_order = component_order
+  )
 }
 
 # align K = 2 to K = 9
 Q_aligned <- list()
+component_order <- list()
 Q_aligned[["2"]] <- read_Q(2, prefix, fam)
+component_order[["2"]] <- seq_len(2)
 for (K in 3:9) {
   current_Q <- read_Q(K, prefix, fam)
-  Q_aligned[[as.character(K)]] <- align_Q(
+  aligned <- align_Q(
     Q_aligned[[as.character(K - 1)]],
     current_Q
   )
+  Q_aligned[[as.character(K)]] <- aligned$Q
+  component_order[[as.character(K)]] <- aligned$component_order
 }
+
+component_colors <- bind_rows(
+  lapply(2:9, function(K) {
+    data.frame(
+      K = K,
+      aligned_component = seq_len(K),
+      original_Q_column = component_order[[as.character(K)]],
+      color = cols[seq_len(K)]
+    )
+  })
+)
+write.csv(component_colors, "admixture_component_colors.csv",row.names = FALSE)
 
 
 # fixed individual order based on aligned K = 2
-
 q2 <- as.data.frame(Q_aligned[["2"]])
 q2$Old_ID <- rownames(Q_aligned[["2"]])
 names(q2)[1:2] <- paste0("V", 1:2)
@@ -237,5 +256,125 @@ plot_K(4, Q_aligned, groups, sample_order, draw_x_labels = FALSE, shared_vpos = 
 plot_K(3, Q_aligned, groups, sample_order, draw_x_labels = FALSE, shared_vpos = vpos_ref)
 plot_K(2, Q_aligned, groups, sample_order, draw_x_labels = TRUE, shared_vpos = vpos_ref)
 dev.off()
+
+
+
+################################################################################
+# Calculate individual admixture statistics from an ADMIXTURE Q files
+################################################################################
+
+calc_admixture <- function(q_file, fam_file, id_col = 1) {
+  q <- read.table(q_file, header = FALSE, stringsAsFactors = FALSE)
+  
+  # determine K from number of ancestry components
+  K <- ncol(q)
+  names(q) <- paste0("V", seq_len(K))
+  
+  # read FAM file
+  fam <- read.table(fam_file, header = FALSE, stringsAsFactors = FALSE)
+  q$Old_ID <- fam[, id_col]
+  
+  # matrix containing only ancestry proportions
+  q_mat <- as.matrix(q[, paste0("V", seq_len(K))])
+  
+  # calculate individual ancestry statistics
+  q$dominant_component <- paste0("V", max.col(q_mat, ties.method = "first"))
+  q$dominant_proportion <- apply(q_mat, 1, max)
+  q$clusteredness <- sqrt((K / (K - 1)) * rowSums((q_mat - 1 / K)^2))
+  
+  q$K <- K
+  q <- q[, c(
+    "Old_ID",
+    "K",
+    paste0("V", seq_len(K)),
+    "dominant_component",
+    "dominant_proportion",
+    "clusteredness"
+  )]
+  return(q)
+}
+
+
+# calculate individual ancestry statistics for K values
+fam_file <- "LD-pruned_minDP4_maxDP100_maf0.002_maxMiss0.9_minQ40_noIndels_biallelic_noPopVar_chr.fam"
+q_prefix <- "output/LD-pruned_minDP4_maxDP100_maf0.002_maxMiss0.9_minQ40_noIndels_biallelic_noPopVar_chr."
+
+admixture_stats <- list()
+for (K in 2:9) {
+  q_file <- paste0(q_prefix, K, ".Q")
+  admixture_stats[[as.character(K)]] <- calc_admixture(
+    q_file = q_file,
+    fam_file = fam_file
+  )
+}
+
+# combine all K values into one table
+admixture_stats <- bind_rows(admixture_stats)
+write.csv(admixture_stats, "admixture_individual_stats_K2_K9.csv", row.names = FALSE)
+
+# add group metadata
+group_file <- paste0(git_path, "/additional_data/id_data/samples_id_gen.csv")
+groups <- read.csv(group_file, header = TRUE, stringsAsFactors = FALSE)
+names(groups) <- c("Old_ID", "group1", "group", "treat")
+admixture_stats <- admixture_stats %>% left_join(groups, by = "Old_ID")
+
+# calculate summary statistics per K and generation
+admixture_summary <- admixture_stats %>%
+  group_by(K, group1) %>%
+  summarise(
+    n = n(),
+    mean_clusteredness = mean(clusteredness, na.rm = TRUE),
+    median_clusteredness = median(clusteredness, na.rm = TRUE),
+    mean_dominant_proportion = mean(dominant_proportion, na.rm = TRUE),
+    median_dominant_proportion = median(dominant_proportion, na.rm = TRUE),
+    .groups = "drop"
+  )
+write.csv(admixture_summary, "admixture_generation_summary_K2_K9.csv", row.names = FALSE)
+
+
+
+################################################################################
+# Quantify dark-green ancestry component across generations for K = 7
+################################################################################
+
+# read component-color assignment
+component_colors <- read.csv("admixture_component_colors.csv", stringsAsFactors = FALSE)
+
+# identify dark-green component for K = 7
+green_col <- component_colors %>%
+  filter(K == 7, color == "darkgreen") %>%
+  pull(original_Q_column)
+
+q7 <- read.table(paste0(q_prefix, "7.Q"), header = FALSE, stringsAsFactors = FALSE)
+names(q7) <- paste0("V", seq_len(ncol(q7)))
+fam <- read.table(fam_file, header = FALSE, stringsAsFactors = FALSE)
+q7$Old_ID <- fam[, 1]
+
+# add group metadata and dark-green ancestry proportion
+q7 <- q7 %>%
+  left_join(groups, by = "Old_ID") %>%
+  mutate(darkgreen = .data[[paste0("V", green_col)]])
+
+# summarize dark-green ancestry component per generation
+darkgreen_summary <- q7 %>%
+  group_by(group1) %>%
+  summarise(
+    n = n(),
+    mean_darkgreen = mean(darkgreen),
+    median_darkgreen = median(darkgreen),
+    Q1_darkgreen = quantile(darkgreen, 0.25),
+    Q3_darkgreen = quantile(darkgreen, 0.75),
+    percent_ge_5 = mean(darkgreen >= 0.05) * 100,
+    percent_ge_10 = mean(darkgreen >= 0.10) * 100,
+    .groups = "drop"
+  )
+write.csv(darkgreen_summary, "K7_darkgreen_generation_summary.csv", row.names = FALSE)
+
+
+
+
+
+
+
 
 

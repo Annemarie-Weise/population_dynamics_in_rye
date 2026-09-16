@@ -168,3 +168,63 @@ ggsave(
   height = 5.5,
   units = "in"
 )
+
+
+
+################################################################################
+# Summarize variant counts in low-MAF bins
+################################################################################
+
+maf_low_counts <- maf_all %>%
+  filter(gen %in% c("gen1", "gen2", "gen3"), MAF <= 0.03) %>%
+  mutate(
+    MAF_bin = case_when(
+      MAF <= 0.01 ~ "0.00-0.01",
+      MAF <= 0.02 ~ "0.01-0.02",
+      MAF <= 0.03 ~ "0.02-0.03"
+    )
+  ) %>%
+  count(gen, trt, MAF_bin, name = "n_variants") %>%
+  arrange(MAF_bin, trt, gen)
+write.csv(maf_low_counts, "MAF_low_frequency_bin_counts.csv", row.names = FALSE)
+
+
+
+################################################################################
+# Combine temporal and treatment differences in one table
+################################################################################
+
+maf_low_differences <- bind_rows(
+  # temporal differences
+  maf_low_counts %>%
+    select(gen, trt, MAF_bin, n_variants) %>%
+    pivot_wider(names_from = gen, values_from = n_variants) %>%
+    mutate(
+      Gen1_to_Gen2 = gen2 - gen1,
+      Gen2_to_Gen3 = gen3 - gen2,
+      Gen1_to_Gen3 = gen3 - gen1
+    ) %>%
+    select(MAF_bin, trt, Gen1_to_Gen2, Gen2_to_Gen3, Gen1_to_Gen3) %>%
+    pivot_longer(
+      cols = starts_with("Gen"),
+      names_to = "comparison",
+      values_to = "difference"
+    ) %>%
+    mutate(comparison_type = "temporal", group = as.character(trt)) %>%
+    select(MAF_bin, comparison_type, group, comparison, difference),
+  # treatment differences
+  maf_low_counts %>%
+    select(gen, trt, MAF_bin, n_variants) %>%
+    pivot_wider(
+      names_from = trt,
+      values_from = n_variants
+    ) %>%
+    transmute(
+      MAF_bin,
+      comparison_type = "treatment",
+      group = as.character(gen),
+      comparison = "ND_minus_control",
+      difference = ND - Control
+    )
+)
+write.csv(maf_low_differences, "MAF_low_frequency_bin_differences.csv", row.names = FALSE)

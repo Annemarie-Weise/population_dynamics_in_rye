@@ -235,6 +235,8 @@ run_pairwise_wilcox <- function(df, window_label, value_col, output_prefix) {
       n_windows = n(),
       mean = mean(.data[[value_col]], na.rm = TRUE),
       median = median(.data[[value_col]], na.rm = TRUE),
+      Q1 = quantile(.data[[value_col]], 0.25, na.rm = TRUE),
+      Q3 = quantile(.data[[value_col]], 0.75, na.rm = TRUE),
       sd = sd(.data[[value_col]], na.rm = TRUE),
       .groups = "drop"
     )
